@@ -1,0 +1,97 @@
+
+h1 {
+    text-align: center;
+}
+
+.estilo_defecto {
+    text-align: center;
+    border: 2px solid black;
+    margin-top: 1%;
+}
+  
+nav a {
+    display: block; /* Hacer que los enlaces ocupen todo el ancho */
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px; /* Espacio interno del enlace */
+}
+
+nav a:hover {
+    color: orange;
+}
+
+article {
+    text-align: right;
+}
+
+p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav > a {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    text-align: center;
+}
+
+#titulo_mundial {
+    color: darkblue;
+    background-color: grey;
+}
+
+body {
+    background-color: burlywood;
+}
+
+header {
+    background-color: darkseagreen;
+}
+
+main {
+    background-color: thistle;
+}
+
+h1 {
+    background-color: darkslategrey;
+    color: aliceblue;
+}
+
+h2 {
+    color: darkgreen;
+    background-color: grey;
+}
+
+#ranking {
+    margin: auto;
+    border-collapse: collapse;
+    width: 65%;
+    font: normal 400 15px Roboto,sans-serif;
+}
+
+table thead {
+    color: #fff;
+    font: normal 400 15px Roboto,sans-serif;
+    padding: 15px;
+    background: #334166;
+}
+
+table {
+    color: #334166;
+    font-weight: bolder;
+}
+
+table tbody tr td a:hover {
+    color: #8b99c0;
+}
+
+table tbody td {
+    font-weight: bolder;
+}
+
+table tbody tr:nth-child(2n) {
+    background: #dfdfed;
+}
